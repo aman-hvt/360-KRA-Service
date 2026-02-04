@@ -6,9 +6,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // output: "standalone",
-  output: "export",        // Must have this line!
-  trailingSlash: true,
+  output: "standalone",
+  // output: "export",        // Must have this line!
+  // trailingSlash: true,
 }
 
 export default nextConfig
